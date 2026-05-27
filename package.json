@@ -1,0 +1,38 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:allure": "npx allure run -- npx playwright test",
+    "report:watch": "npx allure watch allure-results",
+    "report:open": "npx allure open",
+    "all": "npm run test:allure && npm run report:open",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.6.2",
+    "@typescript-eslint/eslint-plugin": "^8.59.4",
+    "@typescript-eslint/parser": "^8.59.4",
+    "allure": "^3.8.2",
+    "allure-commandline": "^2.41.0",
+    "allure-js-commons": "^3.8.0",
+    "allure-playwright": "^3.8.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-playwright": "^2.10.4",
+    "globals": "^17.6.0",
+    "jiti": "^2.7.0",
+    "typescript-eslint": "^8.59.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
