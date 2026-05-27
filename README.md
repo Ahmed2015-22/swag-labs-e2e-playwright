@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Ahmed2015-22/swag-labs-e2e-playwright.git
    cd PlaywrightFramework
    ```
 
@@ -126,5 +126,12 @@ This project is fully integrated with **GitHub Actions**. The pipeline is trigge
 
 ---
 
-## ✍️ Author
-- **Ahmed El-Sharkawi** (SDET)
+---
+
+## 👨‍💻 Author
+**Ahmed El-Sharkawi**  
+*Junior Test Automation Engineer*
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/ahmed-el-sharkawi/)
+🔗 [GitHub Profile](https://github.com/Ahmed2015-22)
+
